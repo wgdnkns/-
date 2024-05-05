@@ -34,7 +34,8 @@ CreatureSounds 音效组件
 ## 掉落组件 ##
 Loot 掉落组件
 
-> 掉落组件格式<ParameterSetName="Loot"Guid="00a4f5b5-f0be-4887-9583">Name="1"Guid="5cd5df7f-1df9-6b47"Value="DiamondChunkBlock;1;1;0.05"Type="string" />
+> 掉落组件格式
+> `<ParameterSetName="Loot"Guid="00a4f5b5-f0be-4887-9583">Name="1"Guid="5cd5df7f-1df9-6b47"Value="DiamondChunkBlock;1;1;0.05"Type="string" />`
 
 加入分号可以决定掉落数量，比如1;10，每次掉落1~10个，再加入分号可决定掉落几率。如;0.50当然想要同时掉落2个物品以上，复制Loot组件，把组件中“Name”中序号改一下即可
 ## 凝视行为及狼相关 ##
